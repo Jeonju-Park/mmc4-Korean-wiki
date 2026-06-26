@@ -15,6 +15,7 @@ const PAGES = [
   { id:'todo',  g:'guide', title:'할 일 가이드',    file:'content/guide/todo.md' },
   { id:'boss-hunting', g:'guide', title:'보스 헌팅 가이드', file:'content/guide/boss-hunting.md' },
   { id:'tank-build', g:'guide', title:'근딜 탱커 빌드 가이드', file:'content/guide/tank-build.md' },
+  { id:'dragon', g:'guide', title:'드래곤 완전 가이드', file:'content/guide/dragon.md' },
 
   { id:'weapon',    g:'wiki', title:'무기 위키',        file:'content/wiki/weapon.md' },
   { id:'armor',     g:'wiki', title:'방어구 위키',      file:'content/wiki/armor.md' },
@@ -48,7 +49,7 @@ const PAGES = [
 ];
 const LINKMAP = {
   '1_종족_가이드.md':'race','2_직업_가이드.md':'class','3_탈것_가이드.md':'mount','4_할일_가이드.md':'todo','5_보스헌팅_가이드.md':'boss-hunting',
-  '6_근딜탱커_빌드_가이드.md':'tank-build',
+  '6_근딜탱커_빌드_가이드.md':'tank-build','7_드래곤_가이드.md':'dragon',
   '5_무기_위키.md':'weapon','6_방어구_위키.md':'armor','7_생산성툴_위키.md':'prod-tools','8_아이템_위키.md':'item','9_구조물_위키.md':'structure','10_생산성아이템_위키.md':'prod-item','11_바이옴_위키.md':'biome','12_자원_위키.md':'resource','13_보스_위키.md':'boss','14_몬스터_위키.md':'monster',
   '15_마법_위키.md':'magic','16_생존시스템_위키.md':'survival','17_음식_위키.md':'food','18_인챈트_위키.md':'enchant','19_패밀리어_위키.md':'familiar','20_의뢰_위키.md':'bounty',
   '낚시_가이드.md':'fishing','광질_가이드.md':'mining','건축_가이드.md':'building','건축도구_Structurize_가이드.md':'structurize','레버넌트_종족_가이드.md':'revenant','예티_종족_가이드.md':'yeti','요리사_직업_가이드.md':'cook','생산성툴_가이드.md':'prod-tools-detail','모드팩_플레이_가이드.md':'overview','톰스토리지_창고_가이드.md':'toms-storage'
